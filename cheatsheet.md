@@ -1,0 +1,3 @@
+# Cheat Sheet
+
+==SELECT → FROM → JOIN ... ON → WHERE → GROUP BY → HAVING → ORDER BY → LIMIT==
