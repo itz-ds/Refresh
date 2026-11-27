@@ -1,11 +1,11 @@
 const transactions = [
     {category: 'Salary', type: 'income', amount: 25000},
-    {category: 'Groceries', type: 'expanse', amount: 4000},
-    {category: 'Entertainment', type: 'expanse', amount: 2000},
-    {category: 'Frelance work', type: 'income', amount: 6000},
-    {category: 'Fuel', type: 'expanse', amount: 500},
-    {category: 'Electric Bill', type: 'expanse', amount: 2000},
-    {category: 'Self Gift', type: 'expanse', amount: 1999},
+    {category: 'Groceries', type: 'expense', amount: 4000},
+    {category: 'Entertainment', type: 'expense', amount: 2000},
+    {category: 'Freelance work', type: 'income', amount: 6000},
+    {category: 'Fuel', type: 'expense', amount: 500},
+    {category: 'Electric Bill', type: 'expense', amount: 2000},
+    {category: 'Self Gift', type: 'expense', amount: 1999},
 ];
 
 const withTax = transactions.map((transaction) => transaction.amount * 1.18);
